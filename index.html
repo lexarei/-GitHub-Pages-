@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редактирование статистики</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Редактирование статистики</h1>
+    </header>
+    <main>
+        <section id="stats-form">
+            <h2>Форма редактирования</h2>
+            <form id="edit-form">
+                <label for="nickname">Ник:</label>
+                <input type="text" id="nickname" name="nickname" required>
+
+                <label for="position">Должность:</label>
+                <input type="text" id="position" name="position" required>
+
+                <label for="level">Уровень:</label>
+                <input type="number" id="level" name="level" required>
+
+                <label for="days">Дни на посту:</label>
+                <input type="number" id="days" name="days" required>
+
+                <label for="replies">Ответы:</label>
+                <input type="number" id="replies" name="replies" required>
+
+                <label for="inactive">Неактивы:</label>
+                <input type="text" id="inactive" name="inactive">
+
+                <label for="age">Возраст:</label>
+                <input type="number" id="age" name="age">
+
+                <label for="telegram">Telegram:</label>
+                <input type="text" id="telegram" name="telegram">
+
+                <button type="submit">Сохранить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ваш сайт</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
